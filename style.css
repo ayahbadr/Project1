@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
 
-p {
-  color: red;
-}
-
-h1 {
-  text-decoration: underline;
+body {
+  background-color: black;
 }
 
 div {
   width: 650px;
   padding: 15px;
   margin: auto;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 2em;
   text-align: center;
+  color: white;
 }
 
 .verse {
@@ -23,11 +21,25 @@ div {
   padding: 15px;
   margin: auto;
   font-family: 'Sedgwick Ave Display', cursive;
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   background: url('https://images.complex.com/complex/images/c_limit,w_600/fl_lossy,pg_1,q_auto/csaggfqihhpaj5vb74dk/stream-eminem-revival') no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
+  -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: white;
+}
+
+.eminem {
+  font-family: 'Sedgwick Ave Display', cursive;
+  background: url('https://images.complex.com/complex/images/c_limit,w_600/fl_lossy,pg_1,q_auto/csaggfqihhpaj5vb74dk/stream-eminem-revival') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+  font-size: .6em;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
 }
